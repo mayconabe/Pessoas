@@ -10,3 +10,10 @@ class Pessoa:
   def set_nome(self, nome):
     self.nome = nome
     return self
+
+	def set_idade(self, idade):
+		self.idade = idade
+		return self
+
+	def get_idade(self):
+		return self.idade
